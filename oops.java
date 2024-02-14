@@ -1,3 +1,4 @@
+import java.sql.Struct;
 import java.util.Scanner;
 
 // class Pen {
@@ -33,30 +34,87 @@ import java.util.Scanner;
 
 //     }
 // }
+/*Constructor are two types parameterised and non parameterised */
+
+// class Student{
+//     String Name;
+//     int age;
+//     public void printInfo(){
+//         System.out.println(this.Name);
+//         System.out.println(this.age);
+//     }
+// }
+// /**
+//  * oops
+//  */
+// public class oops {
+
+//     public static void main(String args[]){
+//         Student s1=new Student();
+//         s1.Name="Prince";
+//         s1.age=20;
+//         s1.printInfo();
+//         Student s2=new Student();
+//         s2.Name="Naruto";
+//         s2.age=16;
+//         s2.printInfo();
+
+//     }
+// }
+
+/*Constructor(Parameterised Constructor) */
+// class Student {
+//     String name;
+//     int age;
+
+//     public void printInfo() {
+//         System.out.println(this.name);
+//         System.out.println(this.age);
+//     }
+
+//     Student(String name, int age) { // parameterised constructor
+//         this.name = name;
+//         this.age = age;
+//     }
+
+// }
+
+// public class oops {
+
+//     public static void main(String args[]) {
+//         Student s1 = new Student("naruto", 16);
+
+//         s1.printInfo();
+
+//     }
+// }
 
 
+//Copy Constructor
 class Student{
-    String Name;
+    String name;
     int age;
     public void printInfo(){
-        System.out.println(this.Name);
+        System.out.println(this.name);
         System.out.println(this.age);
     }
-}
-/**
- * oops
- */
-public class oops {
-
-    public static void main(String args[]){
-        Student s1=new Student();
-        s1.Name="Prince";
-        s1.age=20;
-        s1.printInfo();
-        Student s2=new Student();
-        s2.Name="Naruto";
-        s2.age=16;
-        s2.printInfo();
+    Student(Student s2){
+        this.name=s2.name;
+        this.age=s2.age;
+    }
+    Student(){
 
     }
+
+}
+public class oops {
+    public static void main(String args[]){
+        Student s1=new Student();
+        s1.name="Naruto";
+        s1.age=16;
+        Student s2=new Student(s1);
+        s2.printInfo();
+    }
+
+    
 }

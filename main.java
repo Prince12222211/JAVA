@@ -67,17 +67,17 @@
 //       System.err.print("Enter the button: ");
 //       int button = sc.nextInt();
 //       // if(button==1){
-// System.err.println("Naroto Uzumaki");
-// }
-// else if(button==2){
-// System.err.println("Itachi Uchia");
-// }
-// else if(button==3){
-// System.err.println("Madara Uchia");
-// }
-// else{
-// System.err.println("Invalid Button Pressed!");
-// }
+      // System.err.println("Naroto Uzumaki");
+      // }
+      // else if(button==2){
+      // System.err.println("Itachi Uchia");
+      // }
+      // else if(button==3){
+      // System.err.println("Madara Uchia");
+      // }
+      // else{
+      // System.err.println("Invalid Button Pressed!");
+      // }
 //       switch (button) {
 //          case 1:
 //             System.err.println("Naruto Uzumaki");
@@ -96,9 +96,12 @@
 //    }
 // }
 
+
+
+
 //Loop in java
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
 // public class main{
 //    public static void main(String args[]){
@@ -113,37 +116,6 @@
 
 //    }
 // }
-
-
-import java.util.Scanner;
-
-// import java.io.BufferedReader;
-// import java.io.IOException;
-// import java.io.InputStreamReader;
-
-
-
-public class main{
-    public static void main(String args[]){
-        Scanner scan=new Scanner(System.in);
-        int n=scan.nextInt();
-        if(n>=2 && n<=20 ){
-        for(int i=1;i<11;i++){
-            System.out.println(n+" x "+ i +" = "+n * i);
-        }
-        }
-        else{
-            System.out.println("Input number must be 2 and 20.");
-        }
-    }
-}
-
-
-
-
-
-
-
 
 
 

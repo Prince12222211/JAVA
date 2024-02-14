@@ -1,0 +1,19 @@
+#Time Complexity and space Complexity
+=>Time complexity:
+1.Best Case=>omega(1)
+2.Averge Case=>Theta((n+1)/2)
+3.Wrost Case=>O(n), We can take this case in the all coding problems
+
+=>if we are taking two nested loop(Like we are taking i and the j loop in the code) in the code then we can take time complexity is O(n^2)
+=>if we are taking single loop in the code we are taking time comlexity is O(n+m)
+Compare | O(n)          || O(n^2)         |||           O(n^3)
+        |2 unit of Time || 4 Unit of time ||| 8 unit of time
+
+=>so we can take with the best of the code of timing is a O(n) is coparison to other
+=>So the summary is we can take minimum time complexity to run the any code
+
+
+=>Space Complexity
+=>Space complexity means how much memory take in the storage like how many variables in the code 
+=>Less Space its means the code is nice
+=>Less Time Complexity its means the code is nice
